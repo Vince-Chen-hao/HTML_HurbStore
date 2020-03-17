@@ -193,6 +193,9 @@ table {
     color: #18335f;
 }
 
+
+/* 在float區塊後面加上clear:both，如此一來便清除了上面的浮動，下面的內容就不會因為float屬性而受到影響。 */
+
 .clearfix {
     clear: both;
 }
