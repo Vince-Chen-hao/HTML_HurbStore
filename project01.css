@@ -233,16 +233,17 @@ table {
     text-justify: inter-ideograph;
 }
 
+.intro h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
 .intro {
     margin: 0 auto;
     margin-top: 55px;
     color: #4d4d4d;
-}
-
-.intro h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 22px;
 }
 
 .intro th,
@@ -332,4 +333,14 @@ table {
     float: right;
     line-height: 1.2;
     font-size: 8px;
+}
+
+.swiper-container {
+    width: 618px;
+    height: 246px;
+}
+
+.box {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
