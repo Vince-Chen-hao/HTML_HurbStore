@@ -339,8 +339,3 @@ table {
     width: 618px;
     height: 246px;
 }
-
-.box {
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
