@@ -79,14 +79,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -101,242 +100,241 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .wrap {
-    width: 800px;
-    margin: 0 auto;
-    font-family: Microsoft JhengHei;
+  width: 800px;
+  margin: 0 auto;
+  font-family: Microsoft JhengHei;
 }
 
 .header {
-    height: 40px;
-    background: #ffeecc;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  height: 40px;
+  background: #ffeecc;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .header ul {
-    float: right;
+  float: right;
 }
 
 .header li {
-    float: left;
-    padding-right: 25px;
-    padding-top: 10px;
+  float: left;
+  padding-right: 25px;
+  padding-top: 10px;
 }
 
 .header li a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    /* 文字水平方向間的空白區間 */
-    font-family: Microsoft JhengHei;
+  text-decoration: none;
+  letter-spacing: 1px;
+  /* 文字水平方向間的空白區間 */
+  font-family: Microsoft JhengHei;
 }
 
 .fb {
-    color: #3a5ba0;
-    padding-left: 7px;
+  color: #3a5ba0;
+  padding-left: 7px;
 }
 
 .shopee {
-    color: #ff6634;
-    padding-left: 7px;
+  color: #ff6634;
+  padding-left: 7px;
 }
 
 .menu {
-    height: 60px;
-    margin-bottom: 20px;
+  height: 60px;
+  margin-bottom: 20px;
 }
 
 .menu ul {
-    float: right;
-    line-height: 60px;
-    /* 設定文字的行間距 */
-    height: 60px;
+  float: right;
+  line-height: 60px;
+  /* 設定文字的行間距 */
+  height: 60px;
 }
 
 .menu li {
-    float: left;
-    margin-right: 30px;
+  float: left;
+  margin-right: 30px;
 }
 
 .menu li a {
-    text-decoration: none;
-    color: #18335f;
+  text-decoration: none;
+  color: #18335f;
 }
-
 
 /* 在float區塊後面加上clear:both，如此一來便清除了上面的浮動，下面的內容就不會因為float屬性而受到影響。 */
 
 .clearfix {
-    clear: both;
+  clear: both;
 }
 
 .column {
-    height: 400px;
+  height: 400px;
 }
 
 .column a {
-    float: left;
-    box-shadow: 2px 3px 10px lightgray;
-    width: 254px;
-    height: 350px;
-    margin-left: 9px;
-    margin-top: 30px;
-    text-decoration: none;
-    color: #4d4d4d;
+  float: left;
+  box-shadow: 2px 3px 10px lightgray;
+  width: 254px;
+  height: 350px;
+  margin-left: 9px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #4d4d4d;
 }
 
 .column img {
-    width: 200px;
-    height: 200px;
-    margin-left: 27px;
-    margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  margin-left: 27px;
+  margin-top: 15px;
 }
 
 .column h2 {
-    padding-left: 100px;
-    padding-top: 10px;
-    font-family: Microsoft JhengHei;
+  padding-left: 100px;
+  padding-top: 10px;
+  font-family: Microsoft JhengHei;
 }
 
 .column p {
-    padding: 20px;
-    font-size: 15px;
-    font-family: Microsoft JhengHei;
+  padding: 20px;
+  font-size: 15px;
+  font-family: Microsoft JhengHei;
 }
 
 .column h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-size: 22px;
 }
 
 .intro {
-    margin: 0 auto;
-    margin-top: 55px;
-    color: #4d4d4d;
+  margin: 0 auto;
+  margin-top: 55px;
+  color: #4d4d4d;
 }
 
 .intro th,
 .intro td {
-    border-top: 1px solid #bfbfbf;
-    border-bottom: 1px solid #bfbfbf;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
 }
 
 .intro th {
-    padding: 15px;
-    background: lightgray;
-    font-family: Microsoft JhengHei;
-    font-weight: bold;
+  padding: 15px;
+  background: lightgray;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
 }
 
 .intro tr span {
-    color: #ad140e;
+  color: #ad140e;
 }
 
 .intro td {
-    padding: 10px;
-    text-align: center;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-family: Microsoft JhengHei;
+  padding: 10px;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: Microsoft JhengHei;
 }
 
 .message {
-    margin-top: 40px;
-    padding-top: 20px;
-    height: 250px;
-    background: linear-gradient( #b99565, #af9360);
-    color: white;
+  margin-top: 40px;
+  padding-top: 20px;
+  height: 250px;
+  background: linear-gradient(#b99565, #af9360);
+  color: white;
 }
 
 .message input {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .message p {
-    text-align: center;
-    font-size: 22px;
-    line-height: 0.7;
+  text-align: center;
+  font-size: 22px;
+  line-height: 0.7;
 }
 
 .leftside {
-    float: left;
-    margin-left: 30px;
-    margin-top: 40px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
-.leftside input[type=submit] {
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-    border: 1px solid rgb(160, 134, 95);
-    color: white;
-    background: rgb(148, 81, 27);
-    font-size: 13px;
+.leftside input[type="submit"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 134, 95);
+  color: white;
+  background: rgb(148, 81, 27);
+  font-size: 13px;
 }
 
-.leftside input[type=submit]:hover {
-    background: #bd771c;
+.leftside input[type="submit"]:hover {
+  background: #bd771c;
 }
 
 .middleside {
-    float: left;
-    margin-left: 50px;
-    margin-top: 40px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
 }
 
 .middleside h3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .rightside {
-    float: right;
-    margin-right: 50px;
-    margin-top: 40px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
 }
 
 .footer {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .footer p {
-    float: right;
-    line-height: 1.2;
-    font-size: 8px;
+  float: right;
+  line-height: 1.2;
+  font-size: 8px;
 }
 
 .swiper-container {
-    width: 618px;
-    height: 246px;
+  width: 618px;
+  height: 246px;
 }
